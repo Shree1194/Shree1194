@@ -1,12 +1,7 @@
-- 👋 Hi, I’m @Shree1194
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-Shree1194/Shree1194 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👋 Hi, I’m @Shree1194  
+- 👀 I’m interested in Artificial Intelligence, Machine Learning, Web Development, and IoT Projects  
+- 🌱 I’m currently learning Python, Full Stack Development, and AI/ML frameworks  
+- 💞️ I’m looking to collaborate on innovative projects that solve real-world problems using tech  
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/aadesh-kapadnis-33b56a255/) | Email: aadeshkapadnis@gmail.com
+- 😄 Pronouns: He
+- ⚡ Fun fact: I love combining hardware and software to build smart systems like drones and plant monitoring devices!
