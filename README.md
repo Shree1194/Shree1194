@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Shree1194  
+- 👋 Hi, I’m Aadesh Kapadnis  
 - 👀 I’m interested in Artificial Intelligence, Machine Learning, Web Development, and IoT Projects  
 - 🌱 I’m currently learning Python, Full Stack Development, and AI/ML frameworks  
 - 💞️ I’m looking to collaborate on innovative projects that solve real-world problems using tech  
