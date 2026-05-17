@@ -26,6 +26,19 @@
 
 ---
 
+## 🏆 Achievements & Recognition
+
+| 🏅 Achievement | 📋 Details | 📅 Year |
+|---------------|-----------|--------|
+| 🚀 **NASA Space Apps Challenge 2025** | Built *Orbital Shield* — 3D asteroid tracking & space debris mitigation system | 2025 |
+| 📄 **Research Paper Publication** | Published research paper (E&TC domain) — Sapkal College of Engineering | 2024–25 |
+| 🎯 **College Project Competition** | Top project in college-level technical competition | 2024–25 |
+| 💻 **Hackathon Participant** | Active hackathon participant — built real-world solutions under pressure | 2024–25 |
+| 🎓 **QSpiders Training** | Completed industry-level Data Analytics training at QSpiders Global | 2024 |
+| 📊 **500+ LinkedIn Connections** | Built a strong professional network of 500+ connections | 2025 |
+
+---
+
 ## 🛠️ Tech Stack & Skills
 
 **Languages & Querying**
@@ -70,10 +83,11 @@
 
 ---
 
-## 🎓 Certifications (In Progress)
+## 🎓 Certifications & Training
 
-- 📜 Google Data Analytics Professional Certificate — *Coursera (In Progress)*
-- 📜 Microsoft Power BI Data Analyst PL-300 — *In Progress*
+- 🏫 **QSpiders Global** — Data Analytics Training (Completed)
+- 📜 **Google Data Analytics Professional Certificate** — *Coursera (In Progress)*
+- 📜 **Microsoft Power BI Data Analyst PL-300** — *In Progress*
 
 ---
 
