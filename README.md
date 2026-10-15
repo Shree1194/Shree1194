@@ -1,152 +1,69 @@
-<h1 align="center">Hi 👋, I'm Aadesh Kapadnis</h1>
-<h3 align="center">🧠 Data Analyst & Full-Stack Dev | AI Agents • Analytics • Privacy-First Apps | Python • TypeScript • Next.js</h3>
+# Aadesh Kapadnis | Software Developer
 
-<p align="center">
-  <a href="https://linkedin.com/in/aadesh-kapadnis-33b56a255" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:aadeshkapadnis@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://github.com/Shree1194" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
+I build full-stack web applications and AI-assisted tools, and I document what is tested, what is not, and where my code builds on other people's work.
 
----
+## About
 
-## 🙋‍♂️ About Me
+I am an Electronics and Telecommunication Engineering graduate (SPPU, 2026) based in Nashik, India, moving into software development. My projects so far are a voice-based AI interview practice app (Next.js, Firebase), a real-time chat application (React, Express, Socket.IO, MongoDB), and a command-line toolkit for verifiable AI-assisted development (Node.js). I care about the unglamorous parts of engineering: authorization boundaries, failing safely when an external service is down, tests, and READMEs that state limitations plainly.
 
-- 🎓 Electronics & Telecommunication Engineering graduate, SPPU Pune
-- 📊 Data Analyst & Full-Stack Developer — turning raw data into business decisions and shipping real products
-- 🤖 Building **multi-agent AI systems**, analytics pipelines, and privacy-first web apps
-- 🚀 **NASA Space Apps Challenge 2025** participant — built Orbital Shield (3D asteroid tracking system)
-- 🏆 Published research paper (E&TC domain) — Sapkal College of Engineering
-- 📫 Reach me at: **aadeshkapadnis@gmail.com**
+I am looking for an entry-level role as a Software Developer, Python or Node.js Backend Developer, Full-Stack Developer, or AI Application Engineer.
 
----
+## Featured projects
 
-## 🛠️ Tech Stack
+Each README lists what is verified, what is not, and any upstream attribution.
 
-**Languages & Data**
+### 1. [PrepWise AI Mock Interview](https://github.com/Shree1194/prepwise-ai-mock-interview)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+AI-assisted interview practice with voice interviews, structured feedback, resume analysis and PDF reports.
 
-**Visualization & BI**
+| | |
+|---|---|
+| **Stack** | Next.js 15, TypeScript, Firebase Auth and Firestore, Vercel AI SDK (Gemini, OpenAI, Anthropic), Vapi, Zod |
+| **Engineering** | Owner-scoped data access with Firestore rules; AI provider fallback with retries and deadlines; code execution fails closed until a private sandbox is verified |
+| **Evidence** | 15 of 15 local tests, type check and lint passing on 2026-10-16. No CI yet |
+| **Not yet verified** | Voice, resume and history journeys against a staging Firebase project |
+| **Attribution** | Built on the JavaScript Mastery AI Mock Interview tutorial; the README lists what I added. No license is offered because the tutorial repo has none |
+| **Live demo** | None |
 
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+### 2. [Nook Chat](https://github.com/Shree1194/nook-chat)
 
-**Frameworks & Tools**
+Real-time one-to-one messaging with presence and image/video attachments.
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+| | |
+|---|---|
+| **Stack** | React 19, Vite, Express 5, Socket.IO, MongoDB (Mongoose), Clerk, ImageKit, Docker |
+| **Engineering** | Clerk-verified REST and WebSocket authentication; private profile fields withheld from other users; recipient and file-content validation; single-origin Docker image |
+| **Evidence** | 27 of 27 backend regression tests (authorization, recipient and upload validation, Socket.IO handshake), lint and builds passing locally on 2026-10-16. CI workflow added; no end-to-end run with real services |
+| **Attribution** | Backend structure follows the MIT-licensed fullstack-chat-app tutorial by Burak (notice kept); auth, uploads, validation and tests are changes here |
+| **Live demo** | None. Deployment is pending |
 
----
+### 3. [Aadesh Genesis](https://github.com/Shree1194/aadesh-genesis)
 
-## 🤖 AI & Full-Stack Projects
+[![Tests](https://github.com/Shree1194/aadesh-genesis/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/Shree1194/aadesh-genesis/actions/workflows/test.yml)
 
-### 🔍 [Smart Job Hunter AI Agent](https://github.com/Shree1194/Smart-Job-Hunter-AI-Agent)
-> Autonomous multi-agent AI system — upload a resume, get matched jobs scored 0–100, and receive personalized application emails in one click.
-- **4 specialized agents**: Profile Analyzer → Job Finder → Matching Agent → Action Agent
-- Multi-factor scoring (Skills 60pts + Experience 20pts + Role Fit 20pts)
-- **Stack**: FastAPI · Next.js · TypeScript · OpenAI GPT-4o-mini · Glassmorphism UI
+A CLI toolkit that records goals, approvals, evidence and recovery checkpoints for resumable, verifiable AI-assisted coding.
 
-### 📝 [Resume256](https://github.com/Shree1194/resume256)
-> Privacy-first resume builder — content encrypted client-side before storage; server never sees raw data.
-- AES-256-GCM encryption via Web Crypto API · PBKDF2 key derivation · Zero-knowledge storage
-- 20+ templates, real-time preview, PDF export, WCAG color contrast validation
-- **Stack**: Next.js · TypeScript · PostgreSQL · Stack Auth · Puppeteer · MIT License
+| | |
+|---|---|
+| **Stack** | Node.js 22 (no runtime dependencies), `node:test`, GitHub Actions on Ubuntu and Windows |
+| **My contribution** | A customized fork of the open-source Genesis Kit. I added the `tasks`, `approve`, `resume` and `--version` commands, Windows process-tree termination and Python detection, a Windows CI matrix, and matching tests. The core design and most of the code are upstream's |
+| **Evidence** | 75 of 75 local tests passing on 2026-10-16; CI run on the current `main` commit succeeded on Ubuntu and Windows |
 
-### 🎤 [Prepwise AI Interviewer](https://github.com/Shree1194/prepwise-interviewer)
-> AI-powered mock interview platform for technical and behavioral interview prep.
-- **Stack**: TypeScript · Next.js · AI integration
+## Skills
 
-### 🌐 [Orbital Shield — NASA Space Apps 2025](https://github.com/Shree1194/orbital-shield-nasa-space-apps)
-> 3D interactive prototype for the NASA Space Apps Challenge 2025 — commercial solution for space debris mitigation and asteroid tracking.
-- **Stack**: HTML · Three.js · JavaScript
+**Used in the projects above**
 
-### 🪄 [Magic Poem AI World](https://github.com/Shree1194/Magic-Poem-AI-World)
-> AI-powered creative poetry generator with a stunning visual interface.
-- **Stack**: HTML · JavaScript · AI API
+- **Languages:** JavaScript, TypeScript
+- **Frontend:** React, Next.js, Vite, Tailwind CSS
+- **Backend and APIs:** Node.js, Express, Socket.IO, REST design, Zod validation
+- **Databases and cloud:** MongoDB, Firebase (Auth, Firestore), ImageKit
+- **AI integration:** Vercel AI SDK, Gemini API, structured output with fallback, Vapi voice agents
+- **DevOps and quality:** Git, GitHub Actions, Docker, `node:test`, ESLint
 
----
+**Also used (see other repositories)**
 
-## 📊 Data Analytics Projects
+- Python, SQL
 
-### 🏏 [IPL Cricket Performance Analysis (2008–2024)](https://github.com/Shree1194/ipl-cricket-performance-analysis)
-> End-to-end analytics on 850,000+ ball-by-ball IPL records across 17 seasons.
-- 31 visualizations · 52 interview-level SQL queries · 6-page Power BI dashboard
-- Best XI weighted scoring model · Chi-Square toss hypothesis test · venue win probability
-- **Stack**: Python · Pandas · Plotly · SQLite · Power BI · Jupyter
+## Contact
 
-### 🎬 [Netflix Content Strategy Analysis](https://github.com/Shree1194/netflix-content-strategy-analysis)
-> Senior-level analysis of Netflix's 8,800+ title library for executive content strategy decisions.
-- 35+ charts · 50 SQL queries · 7-page Plotly Dash dashboard · 11 business recommendations
-- Key insight: TV Show share doubled 2015–2021; International content is the #1 growth engine
-- **Stack**: Python · Pandas · Plotly Dash · PostgreSQL · Tableau
-
-### 🛒 [E-Commerce Sales & Customer Behavior](https://github.com/Shree1194/ecommerce-sales-customer-behavior)
-> Customer segmentation, RFM analysis, and sales trend analytics for e-commerce decision-making.
-- **Stack**: Python · Pandas · Matplotlib · Seaborn
-
-### 🐦 [ChatGPT Twitter Sentiment Analysis](https://github.com/Shree1194/chatgpt-twitter-sentiment-analysis)
-> NLP-powered sentiment analysis on tweets about ChatGPT — public opinion mining at scale.
-- **Stack**: Python · NLTK · Scikit-learn · Matplotlib
-
-### 🏦 [Bank Loan Default Risk Analysis](https://github.com/Shree1194/bank-loan-default-risk-analysis)
-> Credit risk modelling to predict loan default probability using classification techniques.
-- **Stack**: Python · Pandas · Scikit-learn · Seaborn
-
-### 🛍️ [Olist E-Commerce Analytics](https://github.com/Shree1194/olist-ecommerce-analytics)
-> Deep-dive analytics on Brazil's Olist marketplace — delivery performance, seller analysis, review scoring.
-- **Stack**: Python · Pandas · SQL · Plotly
-
-### 🦠 [COVID-19 Global Analysis](https://github.com/Shree1194/covid19-global-analysis)
-> Production-ready COVID-19 global data analysis using OWID data with full test coverage.
-- **Stack**: Python · Pandas · Matplotlib · Plotly · pytest
-
----
-
-## 🏆 Achievements & Recognition
-
-| 🏅 Achievement | 📋 Details | 📅 Year |
-|---|---|---|
-| 🚀 NASA Space Apps Challenge 2025 | Built Orbital Shield — 3D asteroid tracking & space debris mitigation | 2025 |
-| 📄 Research Paper Publication | Published research paper (E&TC domain) — Sapkal College of Engineering | 2024–25 |
-| 🎯 College Project Competition | Top project in college-level technical competition | 2024–25 |
-| 💻 Hackathon Participant | Active hackathon participant — built real-world solutions under pressure | 2024–25 |
-| 🎓 QSpiders Training | Completed industry-level Data Analytics training at QSpiders Global | 2024 |
-| 📊 500+ LinkedIn Connections | Built a strong professional network of 500+ connections | 2025 |
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shree1194&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shree1194&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="40%"/>
-</p>
-
----
-
-## 🎓 Certifications & Training
-
-- 🏫 **QSpiders Global** — Data Analytics Training (Completed)
-- 📜 **Google Data Analytics Professional Certificate** — Coursera (In Progress)
-- 📜 **Microsoft Power BI Data Analyst PL-300** — In Progress
-
----
-
-## 🤝 Let's Connect!
-
-💼 Open to **Data Analyst**, **AI/ML Engineer**, and **Full-Stack Developer** roles.
-Feel free to connect on [LinkedIn](https://linkedin.com/in/aadesh-kapadnis-33b56a255) or email me at **aadeshkapadnis@gmail.com**!
+[Portfolio](https://shree1194.github.io/aadesh-portfolio/) · [GitHub](https://github.com/Shree1194)
